@@ -11,7 +11,6 @@ Before you start to build out the Azure function, you'll need some configuration
   - Under the "Settings" category click on “Built-in Endpoints”.
   - In the list of "Built-in endpoints", expand section called “Events”. 
   - Take note of the values for the “Event Hub-compatible name” and “Event Hub-compatible endpoint" fields. 
-  - 
   - Feel free to use the [IoTHOL-LabParameters.xlsx](/HOL/IOTHubPiHackathon/IoTHOL-LabParameters.xlsx) to note these new values. <br />  
   ![Event Hub Endpoint](/HOL/IOTHubPiHackathon/images/EHendpointValues.jpg) <br />
   
