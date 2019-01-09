@@ -18,7 +18,7 @@ For Raspberry Pi + Sense Hat, a small Python script will be configured and run t
 
 The python script is a sample that will interact with the Sense HAT to collect telemetry data (temperature, humidity, pitch, yaw, roll) from the device. It will also contain code that will securely connect the Raspberry Pi to Azure IoT Hub and allow bidirectional communication to it. 
 
-## Configure Python Script
+## Raspberry Pi Setup - Configure Python Script
 
 1. Configure the Raspberry Pi to send messages to the IoT Hub.
   - Copy the [Python code](/HOL/IOTHubPiHackathon/SenseHat_IoTHub_Http_Lab_Key.py) from this HOL to a text editor (eg. Notepad) on your laptop. Save the file as ```SenseHat_IoTHub_Http_Lab_Key.py```.
@@ -63,10 +63,13 @@ The python script is a sample that will interact with the Sense HAT to collect t
 
 ## Install iothub-explorer
 
- Install iothub-explorer by following [these](/HOL/IOTHubPiHackathon/3/install_node_and_iot_explorer.md) instructions.
+This may have already been performed in the preparation steps.
+
+Install iothub-explorer by following [these](/HOL/IOTHubPiHackathon/3/install_node_and_iot_explorer.md) instructions.
   Note: if you are running on Windows and want a GUI based option, you can use the [device explorer](https://github.com/Azure/azure-iot-sdk-csharp/releases/download/2018-3-13/SetupDeviceExplorer.msi). For simplicity, the instructions below do not document the steps that would be taken with the device explorer but performing the steps below using the GUI based device explorer should be easy to follow.  
 
 ## Monitor Telemetry and Send Messages
+
 Run iothub-explorer on your laptop or virtual machine to view the incoming telemetry and send messages to the Device via the IoT Hub. 
 
   
@@ -99,7 +102,8 @@ Run iothub-explorer on your laptop or virtual machine to view the incoming telem
          <img src="/HOL/IOTHubPiHackathon/images/IoTHubExplorerMonitor.JPG" width="100%" height="100%" /> 
       </p>
 
-## Send Message to Device  
+## Send Message to Device 
+
 - To send a message to your Device via the IoT Hub, enter the following:  
       ```
       iothub-explorer send <device id> Hello --ack=full
@@ -124,7 +128,8 @@ In this assignment, you will use your Python skills to alter the code to send th
   - Humidity
   - Temperature
 
-### Tips: 
+### Tips
+
 - You can refer to the [Sense Hat API](https://pythonhosted.org/sense-hat/api/) for information on how to update the code to send other telemetry to IoT Hub from the Sense HAT. 
 
 - Update the ```SenseHat_IoTHub_Http_Lab_Key.py``` code to send multiple telemetry data points (e.g. Yaw, Pitch, Roll, or Temperature, Pressure, Humidity) in a single JSON-formatted message to IoT Hub. See [sample_payload.json] (/HOL/IoTHubPiHackathon/blob/master/sample_payload.json) for an example of the type of message to be sent. 
