@@ -4,7 +4,8 @@ Please perform the following steps in advance of the Hands-on-labs otherwise you
 
 ### Azure Setup
 
-Ensure that a trial, MSDN or Enterprise Azure subscription is available with access to create resources.  A [free trial is available here](https://azure.microsoft.com/en-us/free/).
+Ensure that a trial, MSDN or Enterprise Azure subscription is available with access to create resources.  
+A [free trial is available here](https://azure.microsoft.com/en-us/free/).
 
 ### IoT DevKit Setup
 
@@ -13,11 +14,12 @@ An IoT DevKit will be provided to attendees for those who do not have an IoT Dev
 ### Laptop Setup - IoT DevKit
 
 For Azure IoT DevKit, the following software is recommended:
-- [Visual Studio Code](https://code.visualstudio.com/)
+
 - [Arduino v1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) Use version 1.86 as 1.87 is currently not compatible
-- [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
-- [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
-- [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
+  - [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
+  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client. You may use PuTTY to connect to Azure IoT DevKit to configure wifi and IoT connection
 
 ### Raspberry Pi Setup (Optional)
