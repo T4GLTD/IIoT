@@ -1,4 +1,6 @@
 
+# Setup IoT Hub
+
 -------- Steps using IoT Hub only -----
 
 **Note: This tutorial is for Windows Users who have installed [Device Explorer](https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer#download)**
