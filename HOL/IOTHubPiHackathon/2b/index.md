@@ -1,6 +1,7 @@
+## Create an IoT Hub
+
 In the following section of the Hands on Lab, you will walk through provisioning an IoT Hub service from the Azure portal. 
 
-## Create an IoT Hub
 1. Open the [Azure Portal](https://portal.azure.com/).
 1. Click "Create a resource" in the top left of the portal.
       <p align="center">
