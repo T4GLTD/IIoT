@@ -1,5 +1,5 @@
 
-var connectionString = 'HostName=Trak-IoT-Hub-Free.azure-devices.net;DeviceId=RaspberryPi;SharedAccessKey=Kj8PlWxtSYpeCCLfVcbLxaBgYHteCPRAi+9yrbn4Fo0=';
+var connectionString = '{REPLACE_WITH_CONNECT_STRING}HostName={iothostname}.azure-devices.net;DeviceId={iotdeviceid};SharedAccessKey={iotsharedaccesskey}';
 // Example: HostName=<IoT Hub Name>.azure-devices.net;DeviceId=<Device Name>;SharedAccessKey=<Device Key>
 
 

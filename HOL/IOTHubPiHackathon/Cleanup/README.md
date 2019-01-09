@@ -1,3 +1,5 @@
+# Cleanup and Rollback
+
 At the end of the Hands on Labs, you should clean up your Azure account so that the resources provisioned do not continue to consume funds from your account. There are two options that we suggest you follow:
 
 ### Option 1 - Delete the Solution Accelerator Completely
