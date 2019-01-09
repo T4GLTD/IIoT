@@ -92,6 +92,12 @@ The default app running on the DevKit checks the latest version of the firmware 
 
 * Note: This is a one-time effort. After you start developing on the DevKit and upload your app, the latest firmware will come with your app.
 
+### Configure Wifi Using Putty Terminal
+
+*This is not required if connection is already setup.*  A direct connection can be made using USB and Putty to configure wifi and IoT Hub connection.
+
+[Use Configuration Mode](https://microsoft.github.io/azure-iot-developer-kit/docs/use-configuration-mode/)
+
 ### Test various sensors
 
 Press button B to test the sensors. Continue pressing and releasing the button B to cycle through each sensor.
