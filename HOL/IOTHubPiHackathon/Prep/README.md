@@ -7,6 +7,13 @@ Please perform the following steps in advance of the Hands-on-labs otherwise you
 Ensure that a trial, MSDN or Enterprise Azure subscription is available with access to create resources.  
 A [free trial is available here](https://azure.microsoft.com/en-us/free/).
 
+An Azure subscription with permissions to create Azure services is recommended. You can use a free Azure account, but you will not be able to complete all paths of the lab. The free account does not allow the creation of solution accelerators.
+
+OPTIONAL: A corporate Azure subscription. This is required if you plan to use a preconfigured solution. You can use a corporate MSDN Azure subscription or a subscription from your company.
+
+OPTIONAL A PowerBI account (same account as the corporate Azure account).  [PowerBI Signin](https://powerbi.microsoft.com/en-us/landing/signin/)
+
+
 ### IoT DevKit Setup
 
 An IoT DevKit will be provided to attendees for those who do not have an IoT DevKit or Raspberry Pi.  This device will be connected to your Azure IoT Hub in your Azure subscription.
