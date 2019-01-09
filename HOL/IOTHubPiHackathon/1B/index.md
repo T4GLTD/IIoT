@@ -1,8 +1,5 @@
 ## Hands on Lab - Initial Setup - MXChip IoT DevKit with Arduino
 
-* Copied on Jan 4, 2019 from https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started
-* Minor clarifications added
-
 ### Prepare your hardware
 
 Hook up the following hardware to your computer:
@@ -97,6 +94,8 @@ The default app running on the DevKit checks the latest version of the firmware 
 *This is not required if connection is already setup.*  A direct connection can be made using USB and Putty to configure wifi and IoT Hub connection.
 
 [Use Configuration Mode](https://microsoft.github.io/azure-iot-developer-kit/docs/use-configuration-mode/)
+
+* Revised based on Jan 4, 2019 version of [Getting Started with IoT DevKit](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 
 ### Test various sensors
 
