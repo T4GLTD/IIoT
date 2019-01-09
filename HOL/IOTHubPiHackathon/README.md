@@ -13,13 +13,15 @@ Telemetry can be sent to Azure IoT Hub from any of the following simulated or ph
 
 Completing this HOL will provide you with the basic skills needed to connect and securely send telemetry from a physical device (e.g. a field device or field gateway) to the Azure IoT Hub.  Once data has been ingested into Azure IoT Hub, there are many possible processing outputs including complex event processing, stream processing, saving telemetry to blob storage or databases, analytics, training of Machine Learning models etc.
 
-### Why Sense HAT?
-
-We didn't want you to mess around with breadboards, jumper cables, resistors etc. This just wastes time and adds nothing to the goal of connecting a sensor to Azure IoT Hub. The Raspberry PI Sense HAT has all the necessary components installed on the circuit board, including a ready to use library, and a series of sensors to play with.
 
 ### Why Azure IoT DevKit?
 
 The Azure IoT DevKit is a Microsoft Azure Certified is an all-in-one kit optimized for prototyping and developing Internet of Things (IoT) solutions leveraging Microsoft Azure services. It provides an Arduino compatible board with rich peripherals such as an OLED display, sensors, hardware debugging chip (ST-Link) and [STSAFE-A100 security chip](https://www.st.com/en/secure-mcus/stsafe-a100.html). It can use Visual Studio Code with Arduino Extension to quickly build a full-fledged IoT application that integrates multiple services like Azure IoT Hub, Logic App and Cognitive Services.  It also may cost you less than buying a Raspberry Pi + Sense Hat.
+
+### Why Sense HAT?
+
+The Raspberry PI Sense HAT has all the necessary components installed on the circuit board, including a ready to use library, and a series of sensors to play with.
+
 
 ### Why HTTPS and REST?
 
