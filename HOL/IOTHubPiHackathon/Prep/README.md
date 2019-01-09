@@ -4,7 +4,7 @@ Please perform the following steps in advance of the Hands-on-labs otherwise you
 
 ### Azure Setup
 
-Ensure that a trial, MSDN or Enterprise Azure subscription is available with access to create resources.
+Ensure that a trial, MSDN or Enterprise Azure subscription is available with access to create resources.  A [free trial is available here](https://azure.microsoft.com/en-us/free/).
 
 ### IoT DevKit Setup
 
