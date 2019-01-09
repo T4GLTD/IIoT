@@ -22,6 +22,7 @@ For Azure IoT DevKit, the following software is recommended:
   - [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client. You may use PuTTY to connect to Azure IoT DevKit to configure wifi and IoT connection
+- [iothub-explorer](https://github.com/azure/iothub-explorer).  This tool is used to view telemetry coming into the IoT Hub.
 
 ### Raspberry Pi Setup (Optional)
 
