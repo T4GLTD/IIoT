@@ -1,6 +1,7 @@
+## Create a Remote Monitoring Solution Accelerator
+
 In the following section of the Hands on Lab, you will walk through the creation of a remote monitoring solution accelerator from the Azure IoT Suite microsite. 
 
-## Create a Remote Monitoring Solution Accelerator
 1. Setup your Azure IoT Suite remote monitoring solution accelerator. You will use this solution accelerator for the duration of the labs to help with visualization of the data and other IoT functions. 
   - Go to the Microsoft IoT Solution Accelerators microsite [https://www.azureiotsolutions.com/](https://www.azureiotsolutions.com/).
   - Log in using your Azure subscription credentials. 
