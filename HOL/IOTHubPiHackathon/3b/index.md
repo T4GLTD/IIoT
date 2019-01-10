@@ -84,7 +84,12 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_open-sample.png" />
 </p>
 
-4. In the new opened project window, press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to finish provisioning your Azure IoT Hub and creating the IoT Hub device. 
+4. In the new opened VS Code project window, press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to finish provisioning your Azure IoT Hub and creating the IoT Hub device.
+  * Note: You may want to prefix your Azure objects with something unique like your initials and HoL (e.g. AAAHoL)
+  * E.g. your resource group could be AAAHoLrg, Iot Hub could be AAAHoLIoTHub
+  * Choose East US 2 as the region when prompted
+  * Choose the F1: Free tier (do we want to recommend basic?)
+  * Wait a few minutes while the Azure resources are created
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_cloud-provision.png" />
