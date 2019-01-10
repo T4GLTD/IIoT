@@ -76,7 +76,7 @@ sudo usermod -a -G plugdev $(whoami)
 
 1. Make sure your IoT DevKit is *not connected* to your computer. Start VS Code first, and then connect the DevKit to your computer.
 
-2. Click "F1" to open the command palette, type and select *Azure IoT Device Workbench: Open Examples....* Then select *IoT DevKit* as board.
+2. Press the "F1" key to open the command palette, type and select *Azure IoT Device Workbench: Open Examples....* Then select *IoT DevKit* as board.
 
 3. In the IoT Workbench Examples page, find *Get Started* and click *Open Sample*. Then select the default path to download the sample code.
 
@@ -84,7 +84,7 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_open-sample.png" />
 </p>
 
-4. In the new opened project window, click "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to finish provisioning your Azure IoT Hub and creating the IoT Hub device. 
+4. In the new opened project window, press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to finish provisioning your Azure IoT Hub and creating the IoT Hub device. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_cloud-provision.png" />
@@ -96,7 +96,7 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_select-com.png" />
 </p>
 
-6. Click "F1" to open the command palette, type and select *Azure IoT Device Workbench: Configure Device Settings...*, then select *Config Device Connection String > Select IoT Hub Device Connection String*.
+6. Press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Configure Device Settings...*, then select *Config Device Connection String > Select IoT Hub Device Connection String*.
 
 7. On DevKit, hold down *button A*, push and release the *reset* button, and then release *button A*. Your DevKit enters configuration mode and saves the connection string. 
 
@@ -106,7 +106,7 @@ sudo usermod -a -G plugdev $(whoami)
 
 ## Upload code to IoT Device
 
-1. Click F1 again, type and select *Azure IoT Device Workbench: Upload Device Code*. It starts compile and upload the code to DevKit. 
+1. Press "F1" again, type and select *Azure IoT Device Workbench: Upload Device Code*. It starts compile and upload the code to DevKit. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_arduino-upload.png" />
@@ -132,7 +132,7 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_azure-portal-conn-string.png" />
 </p>
 
-3. In VS Code, click "F1", type and select *Azure IoT Hub: Set IoT Hub Connection String*. Copy the connection string into it. 
+3. In VS Code, press "F1", type and select *Azure IoT Hub: Set IoT Hub Connection String*. Copy the connection string into it. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_set-iothub-connection-string.png" />
