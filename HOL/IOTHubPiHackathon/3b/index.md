@@ -89,7 +89,8 @@ sudo usermod -a -G plugdev $(whoami)
   * E.g. your resource group could be AAAHoLrg, Iot Hub could be AAAHoLIoTHub
   * Choose East US 2 as the region when prompted
   * Choose the F1: Free tier (do we want to recommend basic?)
-  * Wait a few minutes while the Azure resources are created
+  * Wait a few minutes while the IoTHub is created
+  * Then follow the additional prompts to create the IoT Hub device
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_cloud-provision.png" />
