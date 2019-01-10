@@ -15,19 +15,16 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 * Add following lines to configure Arduino depending on your platform
   * Note: add these to the end of any existing JSON lines that are there
   * Ensure you add a comma to separate existing lines from the new ones if any exist
-
     * Windows
 ```
 "arduino.path": "C:\\Program Files (x86)\\Arduino",
 "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
 ```
-
     * macOS
 ```
 "arduino.path": "/Applications",
 "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
 ```
-
     * Ubuntu
       * Replace the {username} placeholder below with your username
 ```
