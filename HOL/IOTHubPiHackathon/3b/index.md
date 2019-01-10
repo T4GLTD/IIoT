@@ -6,7 +6,8 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 1. Launch VS Code
 2. Configure VS Code with Arduino settings
 
-* In Visual Studio Code, click File > Preference > Settings. Then click the ... and Open settings.json. 
+* In Visual Studio Code, click File > Preferences > Settings. 
+* Then click the ... (in the upper right corner) and click Open settings.json. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_user-settings-arduino.png" />
