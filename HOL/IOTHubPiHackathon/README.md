@@ -86,9 +86,9 @@ The following subsections of the Hands on Labs are as follows:
 
 ### Morning
 
- * [1A - Hands on Lab Setup - Raspberry PI](/HOL/IOTHubPiHackathon/1A/index.md) <BR>
+ * [1A - Hands on Lab Setup - Raspberry PI](/HOL/IOTHubPiHackathon/1a/index.md) <BR>
     **OR**<br>
- * [1B - Hands on Lab Setup - MXChip IoT DevKit](/HOL/IOTHubPiHackathon/1B/index.md)
+ * [1B - Hands on Lab Setup - MXChip IoT DevKit](/HOL/IOTHubPiHackathon/1b/index.md)
 
  * 2 - Provision **ONE** of the following:<br>
    * a) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md) <BR>
@@ -114,8 +114,8 @@ The following subsections of the Hands on Labs are as follows:
 
 ### Morning
 
- * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
- * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3B/index.md)
+ * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1b/index.md)
+ * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
 
 ### Afternoon
 
