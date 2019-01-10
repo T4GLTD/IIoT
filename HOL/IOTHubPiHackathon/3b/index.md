@@ -35,8 +35,11 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 ```
 
 3.  Press the "F1" key to open the command palette, type and select *Arduino: Board Manager*
-* Search for AZ3166 and install the latest version.
 * Note: An alternative to the "F1" key is to also click View > Command Pallette
+* Search for AZ3166 in the search box
+* You should find *MXChip - Microsoft Azure IoT Developer Kit* in the resulting list.
+* Choose the latest version you can find from the *Select version* drop down and click *Install*.
+
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_install-az3166-sdk.png" />
