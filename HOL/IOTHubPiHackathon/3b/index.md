@@ -1,5 +1,49 @@
-# Connect Your Device to the IoT Hub
-In this lab, you will configure your IoT Device to connect to the IoT solution that you created earlier. 
+# Connect Your MXChip IoT DevKit to the IoT Hub
+In this lab, you will provision an IoT Hub configure your IoT Device to connect to it. 
+
+## Prepare Visual Studio Code environment
+
+1. Launch VS Code
+2. Configure VS Code with Arduino settings
+
+* In Visual Studio Code, click File > Preference > Settings. Then click the ... and Open settings.json. 
+
+<p align="center">
+  <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_user-settings-arduino.png" />
+</p>
+
+* Add following lines to configure Arduino depending on your platform
+  * Note: add these to the end of any existing JSON lines that are there
+  * Ensure you add a comma to separate existing lines from the new ones if any exist
+
+  * Windows
+```
+"arduino.path": "C:\\Program Files (x86)\\Arduino",
+"arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
+```
+
+  * macOS
+```
+"arduino.path": "/Applications",
+"arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
+```
+
+  * Ubuntu
+    * Replace the {username} placeholder below with your username
+```
+"arduino.path": "/home/{username}/Downloads/arduino-1.8.8",
+"arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
+```
+
+3.  Click "F1" to open the command palette, type and select *Arduino: Board Manager*
+* Search for AZ3166 and install the latest version.
+
+
+<p align="center">
+  <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_install-az3166-sdk.png" />
+</p>
+
+-------------------------------
 
 
 ## IoT DevKit Setup
