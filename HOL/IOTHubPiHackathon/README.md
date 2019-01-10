@@ -115,7 +115,7 @@ The following subsections of the Hands on Labs are as follows:
 ### Morning
 
  * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
- * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3B/index.md)
+ * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
 
 ### Afternoon
 
