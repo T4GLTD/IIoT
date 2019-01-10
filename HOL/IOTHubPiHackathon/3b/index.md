@@ -112,7 +112,7 @@ sudo usermod -a -G plugdev $(whoami)
 
 ## Upload code to IoT Device
 
-1. Press "F1" again, type and select *Azure IoT Device Workbench: Upload Device Code*. It starts compile and upload the code to DevKit. 
+1. Press "F1" again, type and select *Azure IoT Device Workbench: Upload Device Code*. It starts to compile and upload the code to DevKit. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_arduino-upload.png" />
