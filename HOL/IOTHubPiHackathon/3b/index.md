@@ -27,12 +27,14 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 "arduino.path": "/Applications",
 "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
 ```
+<!--
 * Ubuntu
   * Replace the {username} placeholder below with your username
 ```
 "arduino.path": "/home/{username}/Downloads/arduino-1.8.8",
 "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
 ```
+-->
 
 3.  Press the "F1" key to open the command palette, type and select *Arduino: Board Manager*
 * Note: An alternative to the "F1" key is to also click View > Command Pallette
@@ -56,6 +58,7 @@ ST-Link/V2 is the USB interface that IoT DevKit uses to communicate with your de
      * Accept defaults when prompted
 
 * macOS: No driver is required for macOS.
+<!--
 * Ubuntu: Run the following in terminal and log out and log in for the group change to take effect:
 
 ```
@@ -67,6 +70,7 @@ sudo udevadm control --reload-rules
 # Logout and log back in for the group to take effect
 sudo usermod -a -G plugdev $(whoami)
 ```
+-->
 
 ## Provision IoT Hub and connect IoT Device
 
