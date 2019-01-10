@@ -1,6 +1,6 @@
 ## Azure Functions Lab
 
-In this part of the lab, you will create an Azure function that will be used to programmatically send data back to the Raspberry Pi or IoT DevKit. The Azure function that you will create will be triggered by events that arrive at the IoT Hub. If the status of the device is normal and the newly reported temperature goes above the set threshold, the status of device will be set to high. If the status is at high and the temperature goes below the threshold, the status will be reset to normal. These state changes will be sent back to the IoT Device through a Cloud to Device (C2D) message and the status will be displayed on the LED display. 
+In this part of the lab, you will create an Azure function that will be used to programmatically send data back to the IoT DevKit or Raspberry Pi. The Azure function that you will create will be triggered by events that arrive at the IoT Hub. If the status of the device is normal and the newly reported temperature goes above the set threshold, the status of device will be set to high. If the status is at high and the temperature goes below the threshold, the status will be reset to normal. These state changes will be sent back to the IoT Device through a Cloud to Device (C2D) message and the status will be displayed on the LED display. 
 
 ### Obtain Values Required to Connect Function to the IoT Hub
 
@@ -17,6 +17,7 @@ Before you start to build out the Azure function, you'll need some configuration
 ### Create a Function
 
 In the next part of this lab, you will be creating a C# Azure Function that will get triggered whenever the IoT hub service receives a new event. 
+
 For ease of getting through the lab, we have provided the code that you will need to write the function. When triggered, the code in the function will compare the input to the set threshold (the tag parameter setting that you previously set to a value of 40). If the value is above or below, the function will send a cloud to device (C2D) message to the Device (RaspberryPi or IoTDevKit). Note: To be technically correct, the function actually gets triggered when the event hub compatible endpoint within the IoT Hub service receives an event. IoT Hub service is built with the event hub service running under the covers.
 1. Navigate to the Azure portal: https://portal.azure.com 
 2. Click the ‘+’ sign and type in “function app” 
