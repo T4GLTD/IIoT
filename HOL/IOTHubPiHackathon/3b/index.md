@@ -96,7 +96,7 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_cloud-provision.png" />
 </p>
 
-5. In the bottom-right status bar, check the *MXCHIP AZ3166* is shown as selected board and serial port with *STMicroelectronics* is used. 
+5. In the bottom-right status bar, check the *MXCHIP AZ3166* is shown as selected board and serial port (most likely COM3) with *STMicroelectronics* is used. 
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_select-com.png" />
