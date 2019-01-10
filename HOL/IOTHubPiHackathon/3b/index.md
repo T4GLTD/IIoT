@@ -132,7 +132,8 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_azure-iot-hub-portal.png" />
 </p>
 
-2. In the *Shared access policies* pane, click the *iothubowner policy*, and write down the Connection string of your IoT hub.  
+2. In the *Shared access policies* pane, click the *iothubowner policy*
+  * Under Shared access keys, and click the "Copy" button beside the Primary key to copy the Connection string of your IoT hub to your clipboard.  
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_azure-portal-conn-string.png" />
