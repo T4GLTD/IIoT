@@ -14,8 +14,9 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 </p>
 
 * Add following lines to configure Arduino depending on your platform
-  * Note: add these to the end of any existing JSON lines that are there
-  * Ensure you add a comma to separate existing lines from the new ones if any exist
+  * Note: If any settings already exist, add a comma after the last setting
+  * Then insert the lines below after the existing settings (but before the closing curly brace } )
+  
   * Windows
 ```
 "arduino.path": "C:\\Program Files (x86)\\Arduino",
@@ -33,9 +34,9 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
 ```
 
-3.  Click "F1" to open the command palette, type and select *Arduino: Board Manager*
+3.  Press the "F1" key to open the command palette, type and select *Arduino: Board Manager*
 * Search for AZ3166 and install the latest version.
-
+* Note: An alternative to the "F1" key is to also click View > Command Pallette
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_install-az3166-sdk.png" />
