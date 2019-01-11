@@ -84,6 +84,31 @@ Follow the instructions [here](/HOL/IOTHubPiHackathon/Prep) before you arrive on
 
 The following subsections of the Hands on Labs are as follows: 
 
+
+---
+
+## IoT DevKit MXChip Instructions
+
+The following subsections of the Hands on Labs are as follows: 
+
+### Morning
+
+ * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
+ * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
+
+### Afternoon
+
+ * 4 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
+   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
+   **OR**
+   * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
+
+ * [5 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
+ 
+ * [6 - Lab Clean-up](/HOL/IOTHubPiHackathon/Cleanup)
+
+---
+## Raspberry PI Instructions
 ### Morning
 
  * [1A - Hands on Lab Setup - Raspberry PI](/HOL/IOTHubPiHackathon/1A/index.md) <BR>
@@ -96,26 +121,6 @@ The following subsections of the Hands on Labs are as follows:
    * b) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<br>
 
  * [3 - Connect IoT Device or Simulator to Azure IoT](/HOL/IOTHubPiHackathon/3/index.md)
-
-### Afternoon
-
- * 4 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
-   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
-   **OR**
-   * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
-
- * [5 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
- 
- * [6 - Lab Clean-up](/HOL/IOTHubPiHackathon/Cleanup)
- 
-## Simplified MXChip IoT DevKit Instructions
-
-The following subsections of the Hands on Labs are as follows: 
-
-### Morning
-
- * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
- * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
 
 ### Afternoon
 
