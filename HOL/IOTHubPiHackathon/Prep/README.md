@@ -13,6 +13,7 @@ OPTIONAL: A corporate Azure subscription. This is required if you plan to use a 
 
 OPTIONAL A PowerBI account (same account as the corporate Azure account).  [PowerBI Signin](https://powerbi.microsoft.com/en-us/landing/signin/)
 
+---
 
 ### IoT DevKit Setup
 
@@ -31,6 +32,8 @@ For Azure IoT DevKit, the following software is recommended:
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client. You may use PuTTY to connect to Azure IoT DevKit to configure wifi and IoT connection
 - [iothub-explorer](https://github.com/azure/iothub-explorer).  This tool is used to view telemetry coming into the IoT Hub.
 - [Git Client](https://gitforwindows.org/) - Optional, to clone this and other git repositories.
+
+---
 
 ### Raspberry Pi Setup (Optional)
 
