@@ -40,7 +40,7 @@ Attendees may be provided with Azure IoT DevKit or can use their own hardware or
 
 - [Azure IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/)
 - [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) or [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) with latest version of Raspian installed on the micro SD card. Using [NOOBS](https://www.raspberrypi.org/downloads/noobs/) works fine.  **Note:** if you are using the **Raspberry Pi Zero W**, make sure you bring the mini-HDMI to HMDI adapter for connectivity to a monitor as well as a USB hub so that you can connect a keyboard and mouse to the Pi. (if you already have a Pi 2 Model B with USB Wi-Fi dongle, that will probably work as well)
-- 
+
 #### Simulators
 
 - [Azure IoT DevKit Web Simulator](https://azure-samples.github.io/iot-devkit-web-simulator/)
