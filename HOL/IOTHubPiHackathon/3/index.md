@@ -147,12 +147,14 @@ Finished early?
 Try to add additional devices and examples using the simulators
 
 [Raspberry Pi Simulator](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
+
 [IoT DevKit Web Simulator](https://azure-samples.github.io/iot-devkit-web-simulator/)
 
-Examples
+### IoT DevKit Examples
+
 [IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/)
 
-Raspberry PI Users: 
+### Raspberry PI Users
 Try this [advanced tutorial](/HOL/IOTHubPiHackathon/3/Advanced.md)
 
 
