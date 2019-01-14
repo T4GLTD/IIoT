@@ -143,7 +143,17 @@ In this assignment, you will use your Python skills to alter the code to send th
 The finished script for this assignnment can be found [here](https://github.com/khilscher/IoTHubPiHackathon/blob/master/SenseHat_IoTHub_Http_Lab_Key.py).  If you use this script, remember to update the file with your IoT Hub connection string and the Device Id. 
 -->
 
-Finished early?  Try this [advanced tutorial](/HOL/IOTHubPiHackathon/3/Advanced.md)
+Finished early?  
+Try to add additional devices and examples using the simulators
+
+[Raspberry Pi Simulator](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
+[IoT DevKit Web Simulator](https://azure-samples.github.io/iot-devkit-web-simulator/)
+
+Examples
+[IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/)
+
+Raspberry PI Users: 
+Try this [advanced tutorial](/HOL/IOTHubPiHackathon/3/Advanced.md)
 
 
 [Next lab - 4a Route Telemetry to PowerBI](/HOL/IOTHubPiHackathon/StreamAnalytics)
