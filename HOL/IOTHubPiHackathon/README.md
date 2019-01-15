@@ -115,9 +115,11 @@ The following subsections of the Hands on Labs are as follows:
  * [1B - Hands on Lab Setup - MXChip IoT DevKit](/HOL/IOTHubPiHackathon/1B/index.md)
 
  * 2 - Provision **ONE** of the following:<br>
-   * a) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md) <BR>
-   **OR**<br>
-   * b) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<br>
+   * a) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<BR>
+      **OR**<br>
+   * b) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md)
+   * Note: Remote Monitoring takes 20 mins to provision and may consume significant Azure resources
+
 
  * [3 - Connect IoT Device or Simulator to Azure IoT](/HOL/IOTHubPiHackathon/3/index.md)
 
