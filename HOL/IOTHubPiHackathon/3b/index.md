@@ -173,6 +173,6 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
   * Iot DevKit
   * Hello World
   * Running...
-  * > Iot Hub
+  * Iot Hub
 
 [Back to Main HOL Instructions](/HOL/IOTHubPiHackathon/README.md)
