@@ -134,7 +134,7 @@ Perform this part of the module to populate Blob storage with only data coming f
     1. In the "Create storage account" blade enter the following. 
       - Enter a name for your atorage account. this name must be unique across all existing storage account names in Azure. eg. "<your-initials>iotholstorageaccount" 
       - Leave "Resource manager" as the Deployment model. 
-      - Leave "Storage (general purpose v1)" as the Account Kind.
+      - Leave "Storage (general purpose v2)" as the Account Kind (screenshot shows V1, which would also work).
       - Choose a Location. Try and choose the same location as where the rest of your IoT Hub has been provisioned.
       - Leave "Locally Redundant storage (LRS)" as the Replication. LRS still ensures that three copies of your data is stored in Azure.
       - Leave the default settings selected for Performance and Secure transfer required options.
@@ -219,8 +219,9 @@ Perform this part of the module to populate Blob storage with only data coming f
          <img src="/HOL/IOTHubPiHackathon/images/BlobStorage.JPG" /> 
       </p> 
 
-  1. Select "Browse blobs"
-  1. Select the container.  eg. "iotdata"
+  1. Select "Storage Explorer (preview)"
+  2. Expand the "BLOB CONTAINERS" category
+  3. Select the container.  eg. "iotdata"
   1. Click down through the folder hierarchy.  eg. "data" -> <year> -> <month> -> <day> -> <UTC hour>
   1. Click on a file.
   1. Select "Download".
