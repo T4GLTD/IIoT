@@ -161,11 +161,9 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
 
 1. Press "F1" again, type and select *Azure IoT Hub: Send C2D Message to Device*. 
 
-<!--
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_send_c2d.png" />
 </p>
--->
 
 2. Select an IoT Hub Device (e.g. the one you created earlier)
 
