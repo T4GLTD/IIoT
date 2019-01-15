@@ -157,4 +157,13 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_d2c-output.png" />
 </p>
 
+## Send Message from IoT Hub to Device
+
+1. Press "F1" again, type and select *Azure IoT Hub: Send C2D Message to Device*. 
+
+2. Select an IoT Hub Device (e.g. the one you created earlier)
+
+3. Enter the message to be sent to the device.  This can be "Hello World" or something more original.
+* You should see the message appear on the 2nd line of your MXChip IoTDevKit display
+
 [Back to Main HOL Instructions](/HOL/IOTHubPiHackathon/README.md)
