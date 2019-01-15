@@ -122,6 +122,26 @@ The DevKit reboots and starts running the code.
 
 Note: If there are any errors or interruptions, you can always recover by running the command again.
 
+## Create Consumer Groups
+
+Consumer groups are a key element in Azure event ingestion services that allow consuming applications with a separate view of the event stream. Each consuming application can use the groups to read the streaming data independently at their own pace and with their own offet. These consumer groups will be created in advance but will be used later in this lab.
+
+1. Open the [Azure Portal](https://portal.azure.com/) tab and navigate to your IoT Hub service that you provisioned above
+  - Click the *resource group* icon -> click the name of the resource group you created above -> click the IoT Hub service
+      <p align="center">
+         <img src="/HOL/IOTHubPiHackathon/images/ResourceGroupForIoTHub.JPG" /> 
+      </p>
+
+2. Under the "Settings" subsection, select "Built-In endpoints"
+3. Find the "Events" endpoint
+4. In the settings page that appears below "Events", add the following consumer groups in the "Create new consumer group" text box.  If mulitple people are using the same IoT Hub, append your initials to the consumer group name so that each user gets their own groups.
+  - "deviceexplorer"
+  - "asa"
+      <p align="center">
+         <img src="/HOL/IOTHubPiHackathon/images/consumerGroups.jpg" /> 
+      </p>
+3. Click "Save"
+
 ## View the telemetry received by Azure IoT Hub
 
 You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2C) messages in IoT Hub.
