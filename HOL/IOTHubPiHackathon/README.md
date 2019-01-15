@@ -100,9 +100,11 @@ The following subsections of the Hands on Labs are as follows:
 ### Afternoon
 
  * 3 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
-   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
+   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)
+     * Note: The Power BI output lab works best with the Raspberry PI simulator<BR>
    **OR**
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
+     * Note: If you only have MXChip device running, the Blob storage output lab may be more reliable
 
  * [4 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
  
@@ -128,11 +130,9 @@ The following subsections of the Hands on Labs are as follows:
 ### Afternoon
 
  * 4 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
-   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)
-     * Note: The Power BI output lab works best with the Raspberry PI simulator<BR>
+   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
    **OR**<br>
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
-     * Note: If you only have MXChip device running, the Blob storage output lab may be more reliable
 
  * [5 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
  
