@@ -94,6 +94,8 @@ The following subsections of the Hands on Labs are as follows:
 
  * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
  * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
+ * Optional:  * [Raspberry PI Simulator](/HOL/IOTHubPiHackathon/IoTHub-PiSimulator)
+   * Takes 5-10 mins.  Give you another option for devices to monitor with the IoT Hub
 
 ### Afternoon
 
