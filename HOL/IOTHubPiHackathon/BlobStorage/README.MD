@@ -213,6 +213,8 @@ Perform this part of the module to populate Blob storage with only data coming f
         
 ## View IoT blob data in the Azure Portal
 
+Note: Instructions should be accurate.  Screenshot may be slightly different.
+
   1. Click "Resource Groups" -> Your *resource group name* -> Your *blob storage account name* (eg. "iotholstorageaccount")
       
       <p align="center">
