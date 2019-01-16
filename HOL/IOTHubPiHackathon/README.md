@@ -94,13 +94,17 @@ The following subsections of the Hands on Labs are as follows:
 
  * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
  * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
+ * Optional:  * [Raspberry PI Simulator](/HOL/IOTHubPiHackathon/IoTHub-PiSimulator)
+   * Takes 5-10 mins.  Give you another option for devices to monitor with the IoT Hub
 
 ### Afternoon
 
  * 3 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
-   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
+   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)
+     * Note: The Power BI output lab works best with the Raspberry PI simulator<BR>
    **OR**
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
+     * Note: If you only have MXChip device running, the Blob storage output lab may be more reliable
 
  * [4 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
  
@@ -115,9 +119,11 @@ The following subsections of the Hands on Labs are as follows:
  * [1B - Hands on Lab Setup - MXChip IoT DevKit](/HOL/IOTHubPiHackathon/1B/index.md)
 
  * 2 - Provision **ONE** of the following:<br>
-   * a) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md) <BR>
-   **OR**<br>
-   * b) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<br>
+   * a) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<BR>
+      **OR**<br>
+   * b) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md)
+   * Note: Remote Monitoring takes 20 mins to provision and may consume significant Azure resources
+
 
  * [3 - Connect IoT Device or Simulator to Azure IoT](/HOL/IOTHubPiHackathon/3/index.md)
 
@@ -125,7 +131,7 @@ The following subsections of the Hands on Labs are as follows:
 
  * 4 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
    * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
-   **OR**
+   **OR**<br>
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
 
  * [5 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
