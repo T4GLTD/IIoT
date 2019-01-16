@@ -37,7 +37,7 @@ For ease of getting through the lab, we have provided the code that you will nee
   - For hosting plan, select “consumption plan”
   - For location, choose the closest data centre (eg. East US)
   - For storage, select “create new” and provide a name for the storage
-  - You can leave Application Insights turned off
+  <!--- You can leave Application Insights turned off-->
   - Click “Create” <br>
       <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/CreateFunction3.jpg" width="30%" height="30%" />
