@@ -40,7 +40,7 @@ Attendees may be provided with Azure IoT DevKit or can use their own hardware or
 
 - [Azure IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/)
 - [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) or [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) with latest version of Raspian installed on the micro SD card. Using [NOOBS](https://www.raspberrypi.org/downloads/noobs/) works fine.  **Note:** if you are using the **Raspberry Pi Zero W**, make sure you bring the mini-HDMI to HMDI adapter for connectivity to a monitor as well as a USB hub so that you can connect a keyboard and mouse to the Pi. (if you already have a Pi 2 Model B with USB Wi-Fi dongle, that will probably work as well)
-- 
+
 #### Simulators
 
 - [Azure IoT DevKit Web Simulator](https://azure-samples.github.io/iot-devkit-web-simulator/)
@@ -84,6 +84,34 @@ Follow the instructions [here](/HOL/IOTHubPiHackathon/Prep) before you arrive on
 
 The following subsections of the Hands on Labs are as follows: 
 
+---
+
+## IoT DevKit MXChip Instructions
+
+The following subsections of the Hands on Labs are as follows: 
+
+### Morning
+
+ * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
+ * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
+ * Optional:  * [Raspberry PI Simulator](/HOL/IOTHubPiHackathon/IoTHub-PiSimulator)
+   * Takes 5-10 mins.  Give you another option for devices to monitor with the IoT Hub
+
+### Afternoon
+
+ * 3 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
+   * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)
+     * Note: The Power BI output lab works best with the Raspberry PI simulator<BR>
+   **OR**
+   * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
+     * Note: If you only have MXChip device running, the Blob storage output lab may be more reliable
+
+ * [4 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
+ 
+ * [5 - Lab Clean-up](/HOL/IOTHubPiHackathon/Cleanup)
+
+---
+## Raspberry PI Instructions
 ### Morning
 
  * [1A - Hands on Lab Setup - Raspberry PI](/HOL/IOTHubPiHackathon/1A/index.md) <BR>
@@ -91,9 +119,11 @@ The following subsections of the Hands on Labs are as follows:
  * [1B - Hands on Lab Setup - MXChip IoT DevKit](/HOL/IOTHubPiHackathon/1B/index.md)
 
  * 2 - Provision **ONE** of the following:<br>
-   * a) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md) <BR>
-   **OR**<br>
-   * b) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<br>
+   * a) [An IoT Hub](/HOL/IOTHubPiHackathon/2b/index.md)<BR>
+      **OR**<br>
+   * b) [A Remote Monitoring Solution Accelerator](/HOL/IOTHubPiHackathon/2/index.md)
+   * Note: Remote Monitoring takes 20 mins to provision and may consume significant Azure resources
+
 
  * [3 - Connect IoT Device or Simulator to Azure IoT](/HOL/IOTHubPiHackathon/3/index.md)
 
@@ -101,7 +131,7 @@ The following subsections of the Hands on Labs are as follows:
 
  * 4 - Route your IoT data using Stream Analytics to one (or both) of the following:<br>
    * a) [Power BI](/HOL/IOTHubPiHackathon/StreamAnalytics)<BR>
-   **OR**
+   **OR**<br>
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
 
  * [5 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)

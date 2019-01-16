@@ -1,6 +1,6 @@
 ## Azure Functions Lab
 
-In this part of the lab, you will create an Azure function that will be used to programmatically send data back to the Raspberry Pi or IoT DevKit. The Azure function that you will create will be triggered by events that arrive at the IoT Hub. If the status of the device is normal and the newly reported temperature goes above the set threshold, the status of device will be set to high. If the status is at high and the temperature goes below the threshold, the status will be reset to normal. These state changes will be sent back to the IoT Device through a Cloud to Device (C2D) message and the status will be displayed on the LED display. 
+In this part of the lab, you will create an Azure function that will be used to programmatically send data back to the IoT DevKit or Raspberry Pi. The Azure function that you will create will be triggered by events that arrive at the IoT Hub. If the status of the device is normal and the newly reported temperature goes above the set threshold, the status of device will be set to high. If the status is at high and the temperature goes below the threshold, the status will be reset to normal. These state changes will be sent back to the IoT Device through a Cloud to Device (C2D) message and the status will be displayed on the LED display. 
 
 ### Obtain Values Required to Connect Function to the IoT Hub
 
@@ -17,6 +17,7 @@ Before you start to build out the Azure function, you'll need some configuration
 ### Create a Function
 
 In the next part of this lab, you will be creating a C# Azure Function that will get triggered whenever the IoT hub service receives a new event. 
+
 For ease of getting through the lab, we have provided the code that you will need to write the function. When triggered, the code in the function will compare the input to the set threshold (the tag parameter setting that you previously set to a value of 40). If the value is above or below, the function will send a cloud to device (C2D) message to the Device (RaspberryPi or IoTDevKit). Note: To be technically correct, the function actually gets triggered when the event hub compatible endpoint within the IoT Hub service receives an event. IoT Hub service is built with the event hub service running under the covers.
 1. Navigate to the Azure portal: https://portal.azure.com 
 2. Click the ‘+’ sign and type in “function app” 
@@ -47,21 +48,17 @@ For ease of getting through the lab, we have provided the code that you will nee
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/CreateFunction4.jpg" />
     </p> 
-7. Click on “Custom Function”
-    <p align="center">
-    <img src="/HOL/IOTHubPiHackathon/images/CustomFunction.JPG" width="50%" height="50%" />
-    </p> 
-8. Scroll down and choose the “EventHubTrigger”
+7. Under "Choose a Development Environment", Click on “In-Portal”, and click "Continue"
+8. Under "Create a Function", Click on “More templates...”, and click "Finish and View Templates"
+
+9. Choose the “Azure Event Hub trigger”
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/ChooseEventHub.jpg" width="70%" height="70%" />
     </p> 
-9. Choose "C#" as the language and give your new function a name in the “Name your function” field. eg. MessageTriggerFunction<BR>
-  New fields should show up on the screen. <br>
-  Select the "new" button. 
-    <p align="center">
-    <img src="/HOL/IOTHubPiHackathon/images/NewFunction1.jpg" width="30%" height="30%" />
-    </p> 
-10.	Here you will create an “IoT Hub connection”. This step will connect your new Azure function as a consumer of the IoT Hub that you provisioned. The next few steps will walk you through a simple wizard that will allow you to build out the required connection string. 
+10. If prompted to install extensions, click "Install".  When installation completes, click "Continue"
+11. Give your new function a name in the “Name:” field. eg. MessageTriggerFunction
+12. Beside the label "Event Hub connection" click the "new" link
+13. Here you will create an “Event Hub connection”. This step will connect your new Azure function as a consumer of the IoT Hub that you provisioned. The next few steps will walk you through a simple wizard that will allow you to build out the required connection string. 
     - Click the "IoT Hub” tab.
     - Under the *IoT Hub* drop down box, select your IoT Hub eg. Iothandsonlabs
     - Under the *Endpoint* drop down box, select “Events (built-in endpoint)
@@ -70,7 +67,7 @@ For ease of getting through the lab, we have provided the code that you will nee
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/IotHubConnection.jpg" width="50%" height="50%" />
     </p>
-11.	The “Event Hub connection” field should auto-populate with the Event hub-compatible connection string. In the "Event Hub name" file, enter name that was obtained above. eg. iothandsonlabc4f51. <br>
+14.	The “Event Hub connection” field should auto-populate. In the "Event Hub name" file, enter name that was obtained above (Event Hub-compatible name). eg. iothandsonlabc4f51. <br>
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/CreateEHTrigger.jpg" width="50%" height="50%" />
     </p>

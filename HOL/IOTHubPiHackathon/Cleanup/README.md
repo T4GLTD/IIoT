@@ -13,8 +13,8 @@ If you did not create a solution accelerator skip this step.
     - Click on the "Delete" button
 
 1. Delete the Remote Monitoring Solution Accelerator completely if you are not planning to continue to work on the labs in your own time. <br />
-  - Best way to remove all the resources is through the www.azureiotsuite.com microsite
-    - Navigate to www.azureiotsuite.com
+  - Best way to remove all the resources is through the [Azure IoT Solution Accelerators](https://www.azureiotsolutions.com/Accelerators) microsite
+    - Navigate to https://www.azureiotsolutions.com/Accelerators
     - Click the tile for your solution accelerator: 
     
       <p align="center">
