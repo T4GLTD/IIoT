@@ -92,6 +92,8 @@ The following subsections of the Hands on Labs are as follows:
 
 ### Morning
 
+ * Introductions and current use of Azure
+ * Device orientation and laptop prerequisite check
  * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
  * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
  * Optional:  * [Raspberry PI Simulator](/HOL/IOTHubPiHackathon/IoTHub-PiSimulator)
