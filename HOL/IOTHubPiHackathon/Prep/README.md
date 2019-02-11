@@ -23,7 +23,7 @@ An IoT DevKit will be provided to attendees for those who do not have an IoT Dev
 
 For Azure IoT DevKit, the following software is recommended:
 
-- [Arduino v1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) Use version 1.86 as 1.87 is currently not compatible
+- [Arduino v1.88](https://www.arduino.cc/en/Main/Software) Use version 1.88 or [Previous Version 1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) as 1.87 is not compatible.
 - [Azure Cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) with [IoT Extension](https://github.com/Azure/azure-iot-cli-extension)
 - [Visual Studio Code](https://code.visualstudio.com/)
   - [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
