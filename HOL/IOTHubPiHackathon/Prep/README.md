@@ -24,9 +24,9 @@ An IoT DevKit will be provided to attendees for those who do not have an IoT Dev
 For Azure IoT DevKit, the following software is recommended:
 
 - [Arduino v1.88](https://www.arduino.cc/en/Main/Software) Use version 1.88 or [Previous Version 1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) as 1.87 is not compatible.  
-  Windows: Use Windows Installer version. Do not install from the app store.
-  macOS: Drag and drop the extracted Arduino.app into /Applications folder.
-  Ubuntu: Unzip it into folder such as $HOME/Downloads/arduino-1.8.8
+  Windows: Use Windows Installer version. Do not install from the app store.  
+  macOS: Drag and drop the extracted Arduino.app into /Applications folder.  
+  Ubuntu: Unzip it into folder such as $HOME/Downloads/arduino-1.8.8  
 
 - [Azure Cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) with [IoT Extension](https://github.com/Azure/azure-iot-cli-extension)
 - [Visual Studio Code](https://code.visualstudio.com/)
