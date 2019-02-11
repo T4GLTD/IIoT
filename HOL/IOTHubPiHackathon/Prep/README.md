@@ -37,7 +37,7 @@ For Azure IoT DevKit, the following software is recommended:
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client. You may use PuTTY to connect to Azure IoT DevKit to configure wifi and IoT connection
 - [iothub-explorer](https://github.com/azure/iothub-explorer).  This tool is used to view telemetry coming into the IoT Hub.
 - [Git Client](https://gitforwindows.org/) - Optional, to clone this and other git repositories.
-
+- [Windows STLink USB Driver](https://www.st.com/en/development-tools/stsw-link009.html)
 ---
 
 ### Raspberry Pi Setup (Optional)
