@@ -30,6 +30,7 @@ For Azure IoT DevKit, the following software is recommended:
 
 - [Azure Cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) with [IoT Extension](https://github.com/Azure/azure-iot-cli-extension)
 - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
   - [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
   - [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
