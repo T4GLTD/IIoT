@@ -20,11 +20,10 @@ Consumer groups are a key element in Azure event ingestion services that allow c
 3. Click "Save"
 
 ## Connect PI Simulator to IoT Hub
-Connect a Simulator to your IoT Hub and stream data. 
-<p align="center">
-   <img src="/HOL/IOTHubPiHackathon/images/pi_simulator.png" /> 
-</p>
 
+![Resource Group](/HOL/IOTHubPiHackathon/images/pi_simulator.png)
+
+Connect a Simulator to your IoT Hub and stream data. 
 
 
 ### In this lab you will
