@@ -41,6 +41,10 @@ You use a template for deployment and that template can work for different envir
 
 Create a resource group to collect and manage all your application resources for this lab
 
+Note: Since this is in a large group lab environment, you should use your initials in your resource group (and generally for all of your other Azure resources if you are in a lab environment) to ensure your Azure resource names are unique
+
+E.g. AAAIoTRG if your initials are AAA.
+
 ![Resource Group](/HOL/IOTHubPiHackathon/images/01_Create_Resource_Group.png)
 
 Click on **+ Add** button
