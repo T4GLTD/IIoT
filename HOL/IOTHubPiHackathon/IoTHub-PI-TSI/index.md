@@ -27,9 +27,9 @@ Azure IoT Hub is a fully managed service that enables reliable and secure bidire
 
 * Learn to Create IoT Hub
 
-* Learn to use Simulator to connect to IoT Hub and send Data
+* Learn to use a Raspberry PI Simulator to connect to IoT Hub and send Data
 
-* Learn to setup MXChip, connect to IoT Hub and send data
+* Learn to setup Time Series Insights (TSI) to visualize data coming into the IoT Hub
 
 ## Create Resource Group
 
