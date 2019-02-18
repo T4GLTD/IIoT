@@ -38,15 +38,15 @@ Connect a Simulator to your IoT Hub and stream data.
 Go To your IoT Hub in the portal and click on **IoT Devices**
 
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/iot_devices.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/iot_devices.png)
 
 Click on **+ Add** and enter a **Device ID** and click **Save**. 
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/add_device.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/add_device.png)
 
 Click on the device and copy the primary key connection string. 
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/connection-string.png)
+![Resource Group](/HOL/IOTHubPiHackathonimages/connection-string.png)
 
 Click on the link below to go to the PI Simulator 
 
@@ -54,11 +54,11 @@ Click on the link below to go to the PI Simulator
 
 Replace the connection string with the primary key connection string copied in the previous steps
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/pi_connection_string_before.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/pi_connection_string_before.png)
 
 After you copy the connection string should look like below
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/pi_connection_string_after.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/pi_connection_string_after.png)
 
 Click Run and start sending messages. LED will start blinking
 
@@ -66,6 +66,6 @@ Click Run and start sending messages. LED will start blinking
 
 Messages will start flowing into IoT Hub
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/iothub_messages.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/iothub_messages.png)
 
 >**You will work with Labs in the Next Module to Visualize the Data flowing into IoT Hub**
