@@ -45,6 +45,8 @@ Note: Since this is in a large group lab environment, you should use your initia
 
 E.g. AAAIoTRG if your initials are AAA.
 
+Also, make note of whatever Region you choose (e.g. West US, West Canada) and use this same region for all resources you create for your labs.
+
 ![Resource Group](/HOL/IOTHubPiHackathon/images/01_Create_Resource_Group.png)
 
 Click on **+ Add** button
