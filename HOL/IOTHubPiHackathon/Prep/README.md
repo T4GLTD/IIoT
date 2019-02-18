@@ -23,16 +23,21 @@ An IoT DevKit will be provided to attendees for those who do not have an IoT Dev
 
 For Azure IoT DevKit, the following software is recommended:
 
-- [Arduino v1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) Use version 1.86 as 1.87 is currently not compatible
+- [Arduino v1.88](https://www.arduino.cc/en/Main/Software) Use version 1.88 or [Previous Version 1.86](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) as 1.87 is not compatible.  
+  Windows: Use Windows Installer version. Do not install from the app store.  
+  macOS: Drag and drop the extracted Arduino.app into /Applications folder.  
+  Ubuntu: Unzip it into folder such as $HOME/Downloads/arduino-1.8.8  
+
 - [Azure Cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) with [IoT Extension](https://github.com/Azure/azure-iot-cli-extension)
 - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
   - [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
   - [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client. You may use PuTTY to connect to Azure IoT DevKit to configure wifi and IoT connection
 - [iothub-explorer](https://github.com/azure/iothub-explorer).  This tool is used to view telemetry coming into the IoT Hub.
 - [Git Client](https://gitforwindows.org/) - Optional, to clone this and other git repositories.
-
+- [Windows STLink USB Driver](https://www.st.com/en/development-tools/stsw-link009.html)
 ---
 
 ### Raspberry Pi Setup (Optional)

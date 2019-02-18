@@ -37,7 +37,7 @@ For ease of getting through the lab, we have provided the code that you will nee
   - For hosting plan, select “consumption plan”
   - For location, choose the closest data centre (eg. East US)
   - For storage, select “create new” and provide a name for the storage
-  - You can leave Application Insights turned off
+  <!--- You can leave Application Insights turned off-->
   - Click “Create” <br>
       <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/CreateFunction3.jpg" width="30%" height="30%" />
@@ -77,7 +77,12 @@ For ease of getting through the lab, we have provided the code that you will nee
   - Click on “View Files”	
 
 ![Expand Function views](/HOL/IOTHubPiHackathon/images/functionViews.jpg)
+ - Click on “+ Add” under the "View files" tab. 
+  - Enter “function.proj” <br />
+![Add project file](/HOL/IOTHubPiHackathon/images/addProject.jpg)
 
+  - Copy the text from [project.json](/HOL/IOTHubPiHackathon/AzureFunction/function.proj) file in the github repo to the new json file you created.
+  - 
   - Click on “+ Add” under the "View files" tab. 
   - Enter “project.json” <br />
 ![Add project file](/HOL/IOTHubPiHackathon/images/addProject.jpg)
