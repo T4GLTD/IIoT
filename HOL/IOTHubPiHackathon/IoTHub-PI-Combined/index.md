@@ -208,3 +208,16 @@ Select the appropriate consumer group and click Create button
 Click "Resource groups" and then click on your lab resource group
 Click on the Time Series Insights environment resource
 Click on Go To Environment which will take you to Time Series Insights Explorer
+
+### Time Series Insights Explorer
+
+Go To Time Series Insights Explorer
+
+![Visualize Data](/HOL/IOTHubPiHackathon/images/05_GoTo_TSI_Explorer.png)
+
+Update with screenshots that would make sense with just 1 device
+* Change measures
+  * Events
+  * Temperature
+  * Humidity
+* View data in a table
