@@ -131,7 +131,7 @@ Click on **+ Add** and enter a **Device ID** and click **Save**.
 
 Click on the device and copy the primary key connection string. 
 
-![Resource Group](/HOL/IOTHubPiHackathonimages/connection-string.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/connection-string.png)
 
 Click on the link below to go to the PI Simulator 
 
