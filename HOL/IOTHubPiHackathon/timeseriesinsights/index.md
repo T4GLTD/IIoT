@@ -45,8 +45,9 @@ Select the appropriate consumer group and click Create button
 ![Create Event Source Submit](images/04_Create_Event_Source_Submit.png)
 
 ### Setup Time Series Insights
-
-Go To Time Series Insights, Click on Go To Environment which will take you to Time Series Insights Explorer
+Click "Resource groups" and then click on your lab resource group
+Click on the Time Series Insights environment resource
+Click on Go To Environment which will take you to Time Series Insights Explorer
 
 If you get Data Access Policy Error execute the following steps
 
