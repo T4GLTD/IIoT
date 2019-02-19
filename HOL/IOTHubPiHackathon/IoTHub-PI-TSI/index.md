@@ -148,7 +148,7 @@ After you copy the connection string should look like below
 
 Click Run and start sending messages. LED will start blinking
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/pi_message.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/pi_message.png)
 
 Messages will start flowing into IoT Hub
 
