@@ -27,11 +27,11 @@ Azure IoT Hub is a fully managed service that enables reliable and secure bidire
 
 * Learn to Create IoT Hub
 
-* Learn to use Simulator to connect to IoT Hub and send Data
+* Learn to use a Raspberry PI Simulator to connect to IoT Hub and send Data
 
-* Learn to setup MXChip, connect to IoT Hub and send data
+* Learn to setup Time Series Insights (TSI) to visualize data coming into the IoT Hub
 
-## Create Resource Group
+## 1. Create Resource Group
 
 The infrastructure for your application is typically made up of many components – maybe a virtual machine, storage account, and virtual network, or a web app, database, database server, and 3rd party services. 
 
@@ -49,9 +49,14 @@ Click on **+ Add** button
 
 Enter **Resource group name**,  Select **subscription** and **region**
 
-![Create Submit](/HOL/IOTHubPiHackathon/images/03_Create_Resource_Group_Submit.png)
+Note: Since this is in a large group lab environment, you should use your initials in your resource group (and generally for all of your other Azure resources if you are in a lab environment) to ensure your Azure resource names are unique
 
-## Create IoThub
+E.g. AAAIoTRG if your initials are AAA.
+
+Also, make note of whatever Region you choose (e.g. West US, Canada Central etc) and use this same region for all resources you create for your labs.
+
+![Create Submit](/HOL/IOTHubPiHackathon/images/03_Create_Resource_Group_Submit.png)
+2. Create IoT Hub
 
 Create an IoT Hub to connect your real device or simulator to this IoTHub and start sending data.
 
@@ -59,7 +64,7 @@ Click on **Create a resource** and click on **Internet of Things**
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/iot.png)
 
-Click on **IoTHub**
+Click on **IoT Hub**
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/04_Create_IoTHub.png)
 
@@ -77,9 +82,9 @@ For details about the other tier options, see [Choosing the right IoT Hub tier](
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/05_Create_IoTHub_Submit_2.png)
 
-## Create Consumer Groups
+## 3. Create Consumer Groups
 
-Consumer groups are a key element in Azure event ingestion services that allow consuming applications with a separate view of the event stream. Each consuming application can use the groups to read the streaming data independently at their own pace and with their own offet. These consumer groups will be created in advance but will be used later in this lab.
+Consumer groups are a key element in Azure event ingestion services that allow consuming applications with a separate view of the event stream. Each consuming application can use the groups to read the streaming data independently at their own pace and with their own offet. These consumer groups will be created in advance but will be used later in this or other labs.
 
 1. Open the [Azure Portal](https://portal.azure.com/) tab and navigate to your IoT Hub service that you provisioned above
   - Click the *resource group* icon -> click the name of the resource group you created above -> click the IoT Hub service
@@ -92,13 +97,13 @@ Consumer groups are a key element in Azure event ingestion services that allow c
 4. In the settings page that appears below "Events", add the following consumer groups in the "Create new consumer group" text box.  If mulitple people are using the same IoT Hub, append your initials to the consumer group name so that each user gets their own groups.
   - "deviceexplorer"
   - "asa"
-  - "tsi"
+  - "timeseriesinsightsevents"
       <p align="center">
          <img src="/HOL/IOTHubPiHackathon/images/consumerGroups.jpg" /> 
       </p>
 3. Click "Save"
 
-## Connect PI Simulator to IoT Hub
+## 4. Connect PI Simulator to IoT Hub
 
 ![Resource Group](/HOL/IOTHubPiHackathon/images/pi_simulator.png)
 
@@ -126,9 +131,10 @@ Click on **+ Add** and enter a **Device ID** and click **Save**.
 
 Click on the device and copy the primary key connection string. 
 
-![Resource Group](/HOL/IOTHubPiHackathonimages/connection-string.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/connection-string.png)
 
 Click on the link below to go to the PI Simulator 
+* You may wish to right-click and open in a new tab or browser window
 
 [PI Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#GetStarted)
 
@@ -142,9 +148,11 @@ After you copy the connection string should look like below
 
 Click Run and start sending messages. LED will start blinking
 
-![Resource Group](/HOL/IOTHubPiHackathon/images/images/pi_message.png)
+![Resource Group](/HOL/IOTHubPiHackathon/images/pi_message.png)
 
 Messages will start flowing into IoT Hub
+Close your Device details window in the Azure portal
+Click "Overview" on your IoT Hub to see some high level metrics and charts showing message activity
 
 ![Resource Group](/HOL/IOTHubPiHackathon/images/iothub_messages.png)
 
