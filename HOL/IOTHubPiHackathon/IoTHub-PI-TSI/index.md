@@ -134,6 +134,7 @@ Click on the device and copy the primary key connection string.
 ![Resource Group](/HOL/IOTHubPiHackathon/images/connection-string.png)
 
 Click on the link below to go to the PI Simulator 
+* You may wish to right-click and open in a new tab or browser window
 
 [PI Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#GetStarted)
 
