@@ -49,6 +49,7 @@ Click "Resource groups" and then click on your lab resource group
 Click on the Time Series Insights environment resource
 Click on Go To Environment which will take you to Time Series Insights Explorer
 <!--
+CHC Commenting this section off as it may not be required?  Put in a separate page in case someone runs into this?
 If you get Data Access Policy Error execute the following steps
 
 ![Data Access Policy Error](images/16_data_access_poliy_error.png)
@@ -74,6 +75,19 @@ Select User
 ### Time Series Insights Explorer
 
 Go To Time Series Insights Explorer
+
+Update with screenshots that would make sense with just 1 device
+* Change measures
+  * Events
+  * Temperature
+  * Humidity
+* View data in a table
+
+
+<!--
+
+
+Move these screenshots to the end of the MXChip lab
 
 ![Visualize Data](images/05_GoTo_TSI_Explorer.png)
 
@@ -120,3 +134,5 @@ Click on Heatmap
 View data in a table
 
 ![Visualize Data](images/table.png)
+
+-->
