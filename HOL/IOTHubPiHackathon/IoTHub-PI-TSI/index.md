@@ -151,6 +151,8 @@ Click Run and start sending messages. LED will start blinking
 ![Resource Group](/HOL/IOTHubPiHackathon/images/pi_message.png)
 
 Messages will start flowing into IoT Hub
+Close your Device details window in the Azure portal
+Click "Overview" on your IoT Hub to see some high level metrics and charts showing message activity
 
 ![Resource Group](/HOL/IOTHubPiHackathon/images/iothub_messages.png)
 
