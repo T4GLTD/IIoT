@@ -48,7 +48,7 @@ Select the appropriate consumer group and click Create button
 Click "Resource groups" and then click on your lab resource group
 Click on the Time Series Insights environment resource
 Click on Go To Environment which will take you to Time Series Insights Explorer
-
+<!--
 If you get Data Access Policy Error execute the following steps
 
 ![Data Access Policy Error](images/16_data_access_poliy_error.png)
@@ -68,6 +68,8 @@ Select Contributor Role
 Select User
 
 ![Select User](images/19_select_user.png)
+
+-->
 
 ### Time Series Insights Explorer
 
