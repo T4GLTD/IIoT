@@ -31,7 +31,7 @@ Azure IoT Hub is a fully managed service that enables reliable and secure bidire
 
 * Learn to setup Time Series Insights (TSI) to visualize data coming into the IoT Hub
 
-## Create Resource Group
+## 1. Create Resource Group
 
 The infrastructure for your application is typically made up of many components – maybe a virtual machine, storage account, and virtual network, or a web app, database, database server, and 3rd party services. 
 
@@ -56,8 +56,7 @@ E.g. AAAIoTRG if your initials are AAA.
 Also, make note of whatever Region you choose (e.g. West US, Canada Central etc) and use this same region for all resources you create for your labs.
 
 ![Create Submit](/HOL/IOTHubPiHackathon/images/03_Create_Resource_Group_Submit.png)
-
-## Create IoThub
+2. Create IoT Hub
 
 Create an IoT Hub to connect your real device or simulator to this IoTHub and start sending data.
 
@@ -65,7 +64,7 @@ Click on **Create a resource** and click on **Internet of Things**
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/iot.png)
 
-Click on **IoTHub**
+Click on **IoT Hub**
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/04_Create_IoTHub.png)
 
@@ -83,7 +82,7 @@ For details about the other tier options, see [Choosing the right IoT Hub tier](
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/05_Create_IoTHub_Submit_2.png)
 
-## Create Consumer Groups
+## 3. Create Consumer Groups
 
 Consumer groups are a key element in Azure event ingestion services that allow consuming applications with a separate view of the event stream. Each consuming application can use the groups to read the streaming data independently at their own pace and with their own offet. These consumer groups will be created in advance but will be used later in this lab.
 
@@ -104,7 +103,7 @@ Consumer groups are a key element in Azure event ingestion services that allow c
       </p>
 3. Click "Save"
 
-## Connect PI Simulator to IoT Hub
+## 4. Connect PI Simulator to IoT Hub
 
 ![Resource Group](/HOL/IOTHubPiHackathon/images/pi_simulator.png)
 
