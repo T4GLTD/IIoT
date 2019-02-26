@@ -85,13 +85,14 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_open-sample.png" />
 </p>
 
-4. In the new opened VS Code project window, press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to finish provisioning your Azure IoT Hub and creating the IoT Hub device.
-  * Note: You may want to prefix your Azure objects with something unique like your initials and HoL (e.g. AAAHoL)
-  * E.g. your resource group could be AAAHoLrg, Iot Hub could be AAAHoLIoTHub
-  * Choose the region (East US or East US 2 are good options.  Remember this and use the same value for other resources)
-  * Choose the S1: Standard tier (you may run into issues with some labs on the Free tier)
-  * Wait a few minutes while the IoTHub is created
-  * Then follow the additional prompts to create the IoT Hub device
+4. In the new opened VS Code project window, press "F1" to open the command palette, type and select *Azure IoT Device Workbench: Provision Azure Services....* Follow the step by step guide to connect to your Azure IoT Hub and creating the IoT Hub device.
+  * If prompted to sign in, sign into your Azure account
+  * **Select Subscription**.  This should be the same subscription you used to set up your IoT Hub
+  * **Select Resource Group**.  This should be the same resource group you used to create your IoT Hub
+  * **>> 1. IoT Hub - 2. IoT Device**. Click to Continue
+  * **Select an Existing IoT Hub**. Choose the same IoT Hub name you created earlier
+  * **1. IoT Hub - >> 2. IoT Device**. Click to Continue
+  * **Create a new IoT Hub device**. Enter Device ID to Create: This does not need to be unique.  Choose a name like IoTDevKit1 and hit Enter
 
 <p align="center">
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_cloud-provision.png" />
