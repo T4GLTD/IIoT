@@ -209,7 +209,7 @@ Note: This TSI resource will cost roughly $5 / 24 hour period so ensure you dele
 
 ### Create Event Source
 
-* **Name:**: Choose a name for your TSI Event Source (does not need to be unique) (e.g. tsieventsource)
+* **Name**: Choose a name for your TSI Event Source (does not need to be unique) (e.g. tsieventsource)
 * **Source Type**: Choose **IoT Hub**
 * **Select a hub**: Choose **Select existing**
 * **Subscription**: Choose your subscription
@@ -219,11 +219,11 @@ Note: This TSI resource will cost roughly $5 / 24 hour period so ensure you dele
   * Note: This must match one of the consumer groups you created earlier in your IoT Hub
 * Click **Review + Create*** at the bottom of the screen
 
-<--!
+<!--
 ![Create Event Source](/HOL/IOTHubPiHackathon/images/03_Create_Event_Source.png)
 -->
 
-![Create Event Source Submit](/HOL/IOTHubPiHackathon/images/04_Create_Event_Source_Submit.png)
+![Create Event Source Submit](/HOL/IOTHubPiHackathon/images/03_Create_Event_Source_Submit.PNG)
 
 * Review the information
 * Click **Create*** at the bottom of the screen
