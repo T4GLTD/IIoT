@@ -86,7 +86,7 @@ For ease of getting through the lab, we have provided the code that you will nee
 ![Add project file](/HOL/IOTHubPiHackathon/images/addProject.jpg)
 
   - Copy the text from [function.proj](/HOL/IOTHubPiHackathon/AzureFunction/function.proj) file in the github repo to the new json file you created.
-  - 
+  - Click "Save and Run"
   - Click on “+ Add” under the "View files" tab. 
   - Enter “project.json” <br />
 ![Add project file](/HOL/IOTHubPiHackathon/images/addProject.jpg)
