@@ -47,16 +47,16 @@ Click on **+ Add** button
 
 ![Add Resource Group](/HOL/IOTHubPiHackathon/images/02_Create_Resource_Group_Create.png)
 
-Enter **Resource group name**,  Select **subscription** and **region**
-
-Note: Since this is in a large group lab environment, you should use your initials in your resource group (and generally for all of your other Azure resources if you are in a lab environment) to ensure your Azure resource names are unique
-
-E.g. AAAIoTRG if your initials are AAA.
-
-Also, make note of whatever Region you choose (e.g. West US, Canada Central etc) and use this same region for all resources you create for your labs.
+* **Subscription**: Choose your subscription
+* **Resource group**: Type in a resource group name
+  * Note: Since this is in a large group lab environment, you should use your initials in your resource group (and generally for all of your other Azure resources if you are in a lab environment) to ensure your Azure resource names are unique
+  * E.g. AAAIoTrg if your initials are AAA (rg abbreviation for resource group)
+* **Region**: Choose a region
+  * Whatever Region you choose (e.g. West US, Canada Central etc) and use this same region for all resources you create for your labs.
 
 ![Create Submit](/HOL/IOTHubPiHackathon/images/03_Create_Resource_Group_Submit.png)
-2. Create IoT Hub
+
+## 2. Create IoT Hub
 
 Create an IoT Hub to connect your real device or simulator to this IoTHub and start sending data.
 
@@ -68,19 +68,26 @@ Click on **IoT Hub**
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/04_Create_IoTHub.png)
 
-Make sure you select the resource group you created in previous step. 
-
-In the Name field, enter a unique name for your IoT hub. The name of your IoT hub must be **unique** across all IoT hubs.
-
-In the Tier filed, select **S1 tier**.
-
-You can choose from several tiers depending on how many features you want and how many messages you send through your solution per day. The free tier is intended for testing and evaluation. It allows 500 devices to be connected to the IoT hub and up to 8,000 messages per day. Each Azure subscription can create one IoT Hub in the free tier.
-
-The **S1** tier allows total of 400,000 messages per unit per day.
-
-For details about the other tier options, see [Choosing the right IoT Hub tier](https://azure.microsoft.com/en-us/pricing/details/iot-hub/).
+* **Subscription**: Choose your subscription
+* **Resource group**: Select the resource group you created in previous steps
+* **Region**: Choose the same region you used for your resource group
+* **IoT Hub**: Choose a unique name for your IoT Hub (e.g. AAAIoTHub)
+* Click **Next: Size and scale** button at bottom of screen
 
 ![Create IoTHub](/HOL/IOTHubPiHackathon/images/05_Create_IoTHub_Submit_2.png)
+
+On the Size and Scale screen:
+
+* **Pricing and Scale Tier**: Select **S1: Standard tier**
+  * This will cost about $1 / day but will give you the functionality required for any of the labs
+  * For details about the other tier options, see [Choosing the right IoT Hub tier](https://azure.microsoft.com/en-us/pricing/details/iot-hub/).
+
+![Create IoTHub](/HOL/IOTHubPiHackathon/images/06_Create_IoTHub_Size_Scale.png)
+
+* Click **Review + Create**
+* Review information
+* Click **Create**
+* This will take 2-3 minutes
 
 ## 3. Create Consumer Groups
 
@@ -156,7 +163,6 @@ Click "Overview" on your IoT Hub to see some high level metrics and charts showi
 
 ![Resource Group](/HOL/IOTHubPiHackathon/images/iothub_messages.png)
 
->**You will work with Labs in the Next Module to Visualize the Data flowing into IoT Hub**
 
 ## 5. Create Azure Time Series Insights and Visualize Raspberry PI Device Data
 
@@ -177,9 +183,9 @@ Time Series Insights has four key jobs:
 
 In this lab you will learn
 
-* how to set up a Time Series Insights environment
-* explore
-* analyze time series data of your IoT solutions or connected things
+* How to set up a Time Series Insights (TSI) environment
+* Explore
+* Analyze time series data of your IoT solutions or connected things
 
 
 Click on **Create a Resource** and click on **Internet of Things**
@@ -190,19 +196,40 @@ Click on **Time Series Insights**
 
 ![Create Time Series Insights](/HOL/IOTHubPiHackathon/images/tsi.png)
 
-Select the resource group you previously created and click **Create** button
+* **Environment Name**: Choose a unique name for your TSI environment (e.g. AAAIoTTSI)
+* **Subscription**: Choose your subscription
+* **Resource group**: Select the resource group you created in previous steps
+* **Region**: Choose the same region you used for your resource group
+* **Tier**: Choose S1
+* Click **Next: Event Source*** at the bottom of the screen
+
+Note: This TSI resource will cost roughly $5 / 24 hour period so ensure you delete it at the end of the day
 
 ![Create Time Series Insights Submit](/HOL/IOTHubPiHackathon/images/02_Create_Time_Series_Inisghts_Submit.png)
 
 ### Create Event Source
 
-Create Event Source to connect to IoTHub. Please make sure you use a unique Consumer Group. Time Series Insights has a requirement to have its own unique consumer group
+* **Name:**: Choose a name for your TSI Event Source (does not need to be unique) (e.g. tsieventsource)
+* **Source Type**: Choose **IoT Hub**
+* **Select a hub**: Choose **Select existing**
+* **Subscription**: Choose your subscription
+* **IoT Hub name**: Select the IoT Hub you created in previous steps
+* **IoT Hub access policy name**: Choose **iothubowner**
+* **IoT Hub consumer group**: Choose **timeseriesinsightevents**
+  * Note: This must match one of the consumer groups you created earlier in your IoT Hub
+* Click **Review + Create*** at the bottom of the screen
 
+<--!
 ![Create Event Source](/HOL/IOTHubPiHackathon/images/03_Create_Event_Source.png)
-
-Select the appropriate consumer group and click Create button
+-->
 
 ![Create Event Source Submit](/HOL/IOTHubPiHackathon/images/04_Create_Event_Source_Submit.png)
+
+* Review the information
+* Click **Create*** at the bottom of the screen
+* This will take 1-2 minutes to create
+
+<--! Stopped here.  Need to generate screenshots for initial views of pi simulator -->
 
 ### Setup Time Series Insights
 * Click "Resource groups" and then click on your lab resource group
