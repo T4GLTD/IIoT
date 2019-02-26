@@ -112,6 +112,8 @@ sudo usermod -a -G plugdev $(whoami)
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_connection-string.png" />
 </p>
 
+Note: You may also get a message like "Configure Device Connection String Completely". If so, continue on to the following instructions.
+
 ## Upload code to IoT Device
 
 1. Press "F1" again, type and select *Azure IoT Device Workbench: Upload Device Code*. It starts to compile and upload the code to DevKit. 
@@ -198,5 +200,12 @@ You can use Azure IoT Tools in Visual Studio Code to monitor device-to-cloud (D2
   * Hello World
   * Running...
   * Iot Hub
+  
+  ## Visualize Multiple Devices in Time Series Insights
+  
+  * In your Azure portal, go back to the Time Series Insights window from the previous lab
+  * In the MEASURE dropdown, choose Events
+  * In the SPLIT BY dropdown, choose deviceid
+    * You should see different lines for the Raspberry PI and a second device (your IoT DevKit)
 
 [Back to Main HOL Instructions](/HOL/IOTHubPiHackathon/README.md)
