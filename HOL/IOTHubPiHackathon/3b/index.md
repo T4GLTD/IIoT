@@ -123,6 +123,7 @@ The DevKit reboots and starts running the code.
 
 Note: If there are any errors or interruptions, you can always recover by running the command again.
 
+<!--
 ## Create Consumer Groups
 
 Consumer groups are a key element in Azure event ingestion services that allow consuming applications with a separate view of the event stream. Each consuming application can use the groups to read the streaming data independently at their own pace and with their own offet. These consumer groups will be created in advance but will be used later in this lab.
@@ -142,6 +143,7 @@ Consumer groups are a key element in Azure event ingestion services that allow c
          <img src="/HOL/IOTHubPiHackathon/images/consumerGroups.jpg" /> 
       </p>
 3. Click "Save"
+-->
 
 ## View the telemetry received by Azure IoT Hub
 
