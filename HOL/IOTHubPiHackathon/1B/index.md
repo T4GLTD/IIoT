@@ -91,7 +91,7 @@ The default app running on the DevKit checks the latest version of the firmware 
 
 ### Configure Wifi Using Putty Terminal
 
-*This is not required if connection is already setup.*  A direct connection can be made using USB and Putty to configure wifi and IoT Hub connection.
+*This is not required if WiFi connection instructions above were successful*  An alternative method is to make a direct connection can be made using USB and Putty to configure wifi and IoT Hub connection.
 
 [Use Configuration Mode](https://microsoft.github.io/azure-iot-developer-kit/docs/use-configuration-mode/)
 
@@ -105,10 +105,7 @@ Press button B to test the sensors. Continue pressing and releasing the button B
   <img src="/HOL/IOTHubPiHackathon/images/MXChipIotDevKit_sensors.jpg" />
 </p>
 
-Briefly explain other buttons?
-
-* E.g. A button does?
-* Reset will 'reboot' your device (but will retain WiFi settings or running programs)
+* Reset button will 'reboot' your device (but will retain WiFi settings or running programs)
 
 ------------------------------
 
