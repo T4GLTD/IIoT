@@ -229,8 +229,6 @@ Note: This TSI resource will cost roughly $5 per 24 hour period so ensure you de
 * Click **Create*** at the bottom of the screen
 * This will take 1-2 minutes to create
 
-<--! Stopped here.  Need to generate screenshots for initial views of pi simulator -->
-
 ### Setup Time Series Insights
 * Click "Resource groups" and then click on your lab resource group
 * Click on the Time Series Insights environment resource
@@ -239,11 +237,14 @@ Note: This TSI resource will cost roughly $5 per 24 hour period so ensure you de
 
 Go To Time Series Insights Explorer
 
-![Visualize Data](/HOL/IOTHubPiHackathon/images/05_GoTo_TSI_Explorer.png)
+![TSI Explorer](/HOL/IOTHubPiHackathon/images/05_GoTo_TSI_Explorer.png)
 
-Update with screenshots that would make sense with just 1 device
-* Change measures
-  * Events
+The default Measure is Events.
+* Experiment by choosing different MEASURE values
   * Temperature
   * Humidity
-* View data in a table
+* Experiment with different display types
+  * CHART
+  * TABLE
+
+![Visualize Data](/HOL/IOTHubPiHackathon/images/06_TSI_Display_Options.PNG)
