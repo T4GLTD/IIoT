@@ -51,7 +51,8 @@ In this lab, you will provision an IoT Hub configure your IoT Device to connect 
 
 ST-Link/V2 is the USB interface that IoT DevKit uses to communicate with your development machine. Follow the OS-specific steps to allow the machine access to your device.
 
-* Windows: Download and install USB driver *(provide link to en.stsw-link009.zip)*
+* Windows: Download and install USB driver 
+[en.stsw-link009.zip](/HOL/IOTHubPiHackathon/en.stsw-link009.zip)
   * Unzip to a folder (e.g. en.stsw-link009)
   * Navigate to the folder and double-click the dpinst_amd64.exe 
      * This assuming you are running 64-bit windows
