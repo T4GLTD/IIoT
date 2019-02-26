@@ -106,7 +106,7 @@ Consumer groups are a key element in Azure event ingestion services that allow c
   - "asa"
   - "timeseriesinsightsevents"
       <p align="center">
-         <img src="/HOL/IOTHubPiHackathon/images/consumerGroups.jpg" /> 
+         <img src="/HOL/IOTHubPiHackathon/images/consumerGroups.PNG" /> 
       </p>
 3. Click "Save"
 
