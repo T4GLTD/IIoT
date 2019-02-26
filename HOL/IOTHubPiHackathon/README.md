@@ -143,5 +143,5 @@ The following subsections of the Hands on Labs are as follows:
 [IoT Fundamentals](https://docs.microsoft.com/en-us/azure/iot-fundamentals/)
 -->
 ### Optional Labs
-* [Automatic Device Provisioning](https://bit.ly/2GNIGMp)
+* [Automatic Device Configuration](https://bit.ly/2GNIGMp)
 * [Other IoT Labs](https://github.com/rangv/AzureIoTLabs)
