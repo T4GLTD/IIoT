@@ -82,7 +82,7 @@ On the Size and Scale screen:
   * This will cost about $1 / day but will give you the functionality required for any of the labs
   * For details about the other tier options, see [Choosing the right IoT Hub tier](https://azure.microsoft.com/en-us/pricing/details/iot-hub/).
 
-![Create IoTHub](/HOL/IOTHubPiHackathon/images/06_Create_IoTHub_Size_Scale.png)
+![Create IoTHub](/HOL/IOTHubPiHackathon/images/06_Create_IoTHub_Size_Scale.PNG)
 
 * Click **Review + Create**
 * Review information
