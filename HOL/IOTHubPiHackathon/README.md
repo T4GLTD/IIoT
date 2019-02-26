@@ -94,11 +94,9 @@ The following subsections of the Hands on Labs are as follows:
 
  * Introductions and current use of Azure
  * Device orientation and laptop prerequisite check
- * [New - IoT Hub - PI - TSI lab](/HOL/IOTHubPiHackathon/IoTHub-PI-TSI/index.md)
- * [1 - Hands on Lab Setup](/HOL/IOTHubPiHackathon/1B/index.md)
- * [2 - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
- * Optional:  * [Raspberry PI Simulator](/HOL/IOTHubPiHackathon/IoTHub-PiSimulator)
-   * Takes 5-10 mins.  Give you another option for devices to monitor with the IoT Hub
+ * [1 - IoT Hub - Simulated Device](/HOL/IOTHubPiHackathon/IoTHub-PI-TSI/index.md)
+ * [2a - IoT DevKit Setup](/HOL/IOTHubPiHackathon/1B/index.md)
+ * [2b - Connect IoT Device to Azure IoT Hub](/HOL/IOTHubPiHackathon/3b/index.md)
 
 ### Afternoon
 
@@ -107,13 +105,12 @@ The following subsections of the Hands on Labs are as follows:
      * Note: The Power BI output lab works best with the Raspberry PI simulator<BR>
    **OR**
    * b) [Blob Storage](/HOL/IOTHubPiHackathon/BlobStorage)
-     * Note: If you only have MXChip device running, the Blob storage output lab may be more reliable
 
  * [4 - Azure Functions](/HOL/IOTHubPiHackathon/AzureFunction)
  
  * [5 - Lab Clean-up](/HOL/IOTHubPiHackathon/Cleanup)
 
----
+<!--
 ## Raspberry PI Instructions
 ### Morning
 
@@ -144,3 +141,4 @@ The following subsections of the Hands on Labs are as follows:
 ## Resources
 
 [IoT Fundamentals](https://docs.microsoft.com/en-us/azure/iot-fundamentals/)
+-->
