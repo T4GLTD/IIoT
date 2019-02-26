@@ -201,9 +201,9 @@ Click on **Time Series Insights**
 * **Resource group**: Select the resource group you created in previous steps
 * **Region**: Choose the same region you used for your resource group
 * **Tier**: Choose S1
-* Click **Next: Event Source*** at the bottom of the screen
+* Click **Next: Event Source** at the bottom of the screen
 
-Note: This TSI resource will cost roughly $5 / 24 hour period so ensure you delete it at the end of the day
+Note: This TSI resource will cost roughly $5 per 24 hour period so ensure you delete it at the end of the day
 
 ![Create Time Series Insights Submit](/HOL/IOTHubPiHackathon/images/02_Create_Time_Series_Inisghts_Submit.png)
 
