@@ -30,13 +30,16 @@ For ease of getting through the lab, we have provided the code that you will nee
     </p> 
 
 4.	Fill out the required values to create a function <br>
-  - Provide the function app a name (eg. functionC2DHoL)
+  - Provide the function app a name (eg. functionC2DHoL with a unique suffix)
   - Select your Azure subscription
   - If given an option to choose between "Windows", "Linux" and "Docker" as the OS, choose "Windows" (At the time of this publication, Linux was still in preview)
   - Select your existing subscription that you are using for the hands on lab
-  - For hosting plan, select “consumption plan”
-  - For location, choose the closest data centre (eg. East US)
-  - For storage, select “create new” and provide a name for the storage
+  - Resource Group: An existing or new resource group eg. iotapprg
+  - Hosting plan: “consumption plan”
+  - Location: East US
+  - Runtime Stack: .NET 
+  - For storage, select “create new” and provide a unique name for the storage
+  - Select Application Insights and disable, or allow a new application insights account to be created for the resource.
   <!--- You can leave Application Insights turned off-->
   - Click “Create” <br>
       <p align="center">
@@ -51,7 +54,7 @@ For ease of getting through the lab, we have provided the code that you will nee
 7. Under "Choose a Development Environment", Click on “In-Portal”, and click "Continue"
 8. Under "Create a Function", Click on “More templates...”, and click "Finish and View Templates"
 
-9. Choose the “Azure Event Hub trigger”
+9. Choose the “Azure Event Hub trigger” <!-- IoT Hub (Event Hub) -->
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/ChooseEventHub.jpg" width="70%" height="70%" />
     </p> 
@@ -63,7 +66,7 @@ For ease of getting through the lab, we have provided the code that you will nee
     - Under the *IoT Hub* drop down box, select your IoT Hub eg. Iothandsonlabs
     - Under the *Endpoint* drop down box, select “Events (built-in endpoint)
     - Click “Select”
-  
+    - *If you do not see an Iot Hub in the drop down list, select Custom, enter connstr as key and paste in the values of your Event Hub connection string from Built-in endpoints section of IoT Hub.*
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/IotHubConnection.jpg" width="50%" height="50%" />
     </p>
@@ -71,8 +74,9 @@ For ease of getting through the lab, we have provided the code that you will nee
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/CreateEHTrigger.jpg" width="50%" height="50%" />
     </p>
-  - Finally, click the “Create” button. The template for your new Event Hub trigger is now created! 
-12.	You will now configure the required libraries that will be needed for the new function created. 
+  - Use the $Default consumer group or choose a consumer group created to consume events from the Function app.
+  - Click the “Create” button. The template for your new Event Hub trigger is now created! 
+15.	You will now configure the required libraries that will be needed for the new function created. 
   - Expand the “Logs” view at the bottom of the page
   - Click on “View Files”	
 
@@ -92,7 +96,7 @@ For ease of getting through the lab, we have provided the code that you will nee
     <p align="center">
     <img src="/HOL/IOTHubPiHackathon/images/projectSave.jpg" width="50%" height="50%" />
     </p>    
-13.	Now add the main source code that will used within the function
+16.	Now add the main source code that will used within the function
   - Copy the text from [Function.txt](/HOL/IOTHubPiHackathon/AzureFunction/AzureFunction.txt) in the github repo to the "run.csx" file. 
   - In the run.csx file, find the CONNECTION_STRING variable and set the value to the IoT Hub Primary Key Connection String obtained in an earlier lab.
   - Click “Save and run” to run the function
