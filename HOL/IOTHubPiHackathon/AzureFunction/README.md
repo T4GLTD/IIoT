@@ -83,7 +83,7 @@ For ease of getting through the lab, we have provided the code that you will nee
 ![Expand Function views](/HOL/IOTHubPiHackathon/images/functionViews.jpg)
  - Click on “+ Add” under the "View files" tab. 
   - Enter “function.proj” <br />
-![Add project file](/HOL/IOTHubPiHackathon/images/addfunc.png)
+![Add project file](/HOL/IOTHubPiHackathon/images/addfunc.jpg)
 
   - Copy the text from [function.proj](/HOL/IOTHubPiHackathon/AzureFunction/function.proj) file in the github repo to the new json file you created.
   - Click "Save and Run"
